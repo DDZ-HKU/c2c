@@ -1,0 +1,8 @@
+.env
+config.yaml
+venv-litellm/
+__pycache__/
+*.pyc
+*.sqlite
+*.log
+.DS_Store

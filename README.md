@@ -98,11 +98,18 @@ litellm-claude-bridge-template/
 
 ## 安装步骤
 
-以下命令都在仓库根目录执行：
+以下命令都在仓库根目录执行。
+
+### 1. 创建虚拟环境
 
 ```zsh
 cd /path/to/this/repo
 python3.11 -m venv venv-litellm
+```
+
+### 2. 激活虚拟环境并安装 LiteLLM Proxy
+
+```zsh
 source venv-litellm/bin/activate
 pip install "litellm[proxy]"
 cp config.example.yaml config.yaml
